@@ -1,7 +1,9 @@
 ---
-- tasks:
+- hosts: Demo Inventory
+  sudo: true
+  tasks:
    - name: create the directory
      file:
-      path: /home/ubuntu/hello
+      path: /home/ubuntu/hello1
       state: directory
       mode: 0755

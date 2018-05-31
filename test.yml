@@ -1,7 +1,5 @@
 ---
-- hosts: localhost
-  sudo: yes
-  tasks:
+- tasks:
    - name: create the directory
      file:
       path: /home/ubuntu/hello

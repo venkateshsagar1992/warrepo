@@ -1,9 +1,8 @@
 ---
-- hosts: Demo Inventory
-  sudo: true
-  tasks:
-   - name: create the directory
-     file:
-      path: /home/ubuntu/hello1
-      state: directory
-      mode: 0755
+-  name: create dir
+   hosts: all
+   tasks:
+    - name: Hello Message
+      debug:
+        msg: "Hello World!"
+

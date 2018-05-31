@@ -1,0 +1,9 @@
+---
+- hosts: localhost
+  sudo: yes
+  tasks:
+   - name: create the directory
+     file:
+      path: /home/ubuntu/hello
+      state: directory
+      mode: 0755

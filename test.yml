@@ -1,8 +1,10 @@
----
--  name: create dir
-   hosts: all
-   tasks:
-    - name: Hello Message
-      debug:
-        msg: "Hello World!"
+- hosts: localhost
+  vars:
+     office: 
+  tasks:
+        - name: install required softwar
+          debug:
+            msg: "{{ office}}"
+
+
 

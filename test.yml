@@ -1,10 +1,11 @@
 - hosts: localhost
   vars:
      office: 
+     username: "Mahesh"
   tasks:
         - name: install required softwar
           debug:
-            msg: "{{ office}}"
+            msg: "Username is:- {{ uasename }} & Password is:- {{ office }}"
 
 
 

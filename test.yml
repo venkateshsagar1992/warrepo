@@ -5,7 +5,7 @@
   tasks:
         - name: install required softwar
           debug:
-            msg: "Username is:- {{ username }} & Password is:- {{ office }}"
+            msg: "Username is:- {{ username }} & Password is:- {{ pwd }}"
 
 
 

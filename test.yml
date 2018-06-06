@@ -1,6 +1,6 @@
 - hosts: localhost
   vars:
-     office: 
+     pwd: 
      username: "Mahesh"
   tasks:
         - name: install required softwar

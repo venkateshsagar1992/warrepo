@@ -1,2 +1,2 @@
 FROM tomcat:latest
-Add /target/CounterWebApp /usr/local/tomcat/webapps/
+ADD /target/CounterWebApp /usr/local/tomcat/webapps/

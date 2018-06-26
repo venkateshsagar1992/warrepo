@@ -20,12 +20,12 @@
   </build>
   <distributionManagement>
   <repository>
-     <id>releases</id>
+     <id>cjp</id>
      <name>Releases</name>
      <url>http://54.162.137.253:8809/nexus-latest/content/repositories/releases/</url>
   </repository>
   <snapshotRepository>
-     <id>snapshots</id>
+     <id>cjp</id>
      <name>Snapshots</name>
      <url>http://54.162.137.253:8809/nexus-latest/content/repositories/snapshots/</url>
   </snapshotRepository>

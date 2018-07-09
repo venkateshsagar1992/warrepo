@@ -1,6 +1,5 @@
 
 - hosts: localhost
-  sudo: yes
   gather_facts: yes
   tasks:
      - name: Install add-apt-repostory

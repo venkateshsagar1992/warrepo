@@ -1,5 +1,5 @@
 
-- hosts: linux
+- hosts: 172.31.94.149
   tasks:
      - name: Install add-apt-repostory
        become: yes

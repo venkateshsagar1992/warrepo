@@ -1,7 +1,5 @@
 
----
 - hosts: localhost
-  sudo: yes
   tasks:
      - name: Install add-apt-repostory
        become: yes

@@ -1,5 +1,5 @@
 
-- hosts: 34.205.77.244
+- hosts: 172.31.94.149
   sudo: yes
   tasks:
      - name: Install add-apt-repostory

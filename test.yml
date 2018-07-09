@@ -1,12 +1,10 @@
----
+
 - hosts: localhost
-  gather_facts: yes
   tasks:
-     
      - name: tomcat download
        get_url: url=http://www-us.apache.org/dist/tomcat/tomcat-8/v8.0.53/bin/apache-tomcat-8.0.53.tar.gz dest=/opt
      - name: extract the tar file
-       unarchive: src=/opt/apache-tomcat-8.0.53.tar.gz dest=/opt/
+       unarchive: src=/opt/apache-tomcat-8.0.53.tar.gz dest=/opt
      - name: start apache-tomcat-8.0.53
        shell: /opt/apache-tomcat-8.0.53/bin/startup.sh
 

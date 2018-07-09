@@ -1,10 +1,6 @@
 
 - hosts: localhost
   tasks:
-     - name: tomcat download
-       get_url: url=http://www-us.apache.org/dist/tomcat/tomcat-8/v8.0.53/bin/apache-tomcat-8.0.53.tar.gz dest=/home/ubuntu
-     - name: extract the tar file
-       unarchive: src=/home/ubuntu/apache-tomcat-8.0.53.tar.gz dest=/home/ubuntu
-     - name: start apache-tomcat-8.0.53
-       shell: /home/ubuntu/apache-tomcat-8.0.53/bin/startup.sh
+   
+   echo "hello world"
 

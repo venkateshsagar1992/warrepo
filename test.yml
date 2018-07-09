@@ -1,7 +1,8 @@
+
 - hosts: 18.206.140.188
   tasks:
-    -name:deploy war file dev env
-     get_url:url=http://18.209.52.152:8081/artifactory/demo/CounterWebApp.war dest:/home/ubuntu/tomcat/webapps
+    - name:deploy war file dev env
+      get_url:url=http://18.209.52.152:8081/artifactory/demo/CounterWebApp.war dest:/home/ubuntu/tomcat/webapps
 
 
 

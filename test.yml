@@ -1,6 +1,6 @@
 
 - hosts: localhost
   tasks:
-   
-   echo "hello world"
+   - name: sample
+       echo "hello world"
 

@@ -2,7 +2,7 @@
 - hosts: localhost
   tasks:
     - name: tomcat download
-       get_url: url=http://www-us.apache.org/dist/tomcat/tomcat-8/v8.0.53/bin/apache-tomcat-8.0.53.tar.gz dest=/opt/
-     - name: extract the tar file
-       unarchive: src=/opt/apache-tomcat-8.0.53.tar.gz dest=/opt/
+      get_url: url=http://www-us.apache.org/dist/tomcat/tomcat-8/v8.0.53/bin/apache-tomcat-8.0.53.tar.gz dest=/opt/
+    - name: extract the tar file
+      unarchive: src=/opt/apache-tomcat-8.0.53.tar.gz dest=/opt/
 

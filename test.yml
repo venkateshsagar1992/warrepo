@@ -2,5 +2,5 @@
 - hosts: localhost
   tasks:
    - name: sample
-     echo "hello world"
+   - shell: echo "hello world"
 

@@ -3,6 +3,6 @@
   sudo: yes
   tasks:
    - file:
-       path: /opt/test1
+       path: /opt/test5
        state: directory
        mode: 0774

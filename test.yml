@@ -1,5 +1,5 @@
 
-- hosts: dev
+- hosts: localhost
   sudo: yes
   tasks:
    - file:

@@ -1,6 +1,6 @@
 
 - hosts: dev
-  sudo: yes
+  become_user: yes
   tasks:
    - file:
        path: /opt/test1

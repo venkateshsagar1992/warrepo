@@ -1,6 +1,7 @@
 
 - hosts: dev
   sudo: yes
+  remote_user: root
   tasks:
    - file:
        path: /opt/test1

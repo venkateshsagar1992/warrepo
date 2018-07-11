@@ -1,29 +1,8 @@
 
 - hosts: localhost
+  sudo: yes
   tasks:
-     - name: Install add-apt-repostory
-       become: yes
-       apt: name=software-properties-common state=latest
-
-     - name: Add Oracle Java Repository
-       become: yes
-       apt_repository: repo='ppa:webupd8team/java'
-
-     - name: Accept Java 8 License
-       become: yes
-       debconf: name='oracle-java8-installer' question='shared/accepted-oracle-license-v1-1' value='true' vtype='select'
-
-     - name: Install Oracle Java 8
-       become: yes
-       apt: name={{item}} state=latest update-cache=yes
-       with_items:
-        - oracle-java8-installer
-        - ca-certificates
-        - oracle-java8-set-default
-
-     - name: tomcat download
-       get_url: url=http://www-us.apache.org/dist/tomcat/tomcat-8/v8.0.53/bin/apache-tomcat-8.0.53.tar.gz dest=/opt/
-     - name: extract the tar file
-       unarchive: src=/opt/apache-tomcat-8.0.53.tar.gz dest=/opt/
-     - name: start apache-tomcat-8.0.53
-       shell: /opt/apache-tomcat-8.0.53/bin/startup.sh
+   - file:
+       path: /opt/test1
+       state: directory
+       mode: 0774

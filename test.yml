@@ -1,5 +1,5 @@
 ---
-- hosts: dev
+- hosts: localhost
   sudo: yes
   gather_facts: false
   tasks:

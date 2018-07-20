@@ -22,12 +22,12 @@
   <repository>
      <id>cjp</id>
      
-     <url>http://54.172.244.241:8081/nexus-latest/releases</url>
+     <url>http://54.172.244.241:8081/nexus-latest/content/repositories/releases</url>
   </repository>
   <snapshotRepository>
      <id>cjp</id>
     
-     <url>http://54.172.244.241:8081/nexus-latest/snapshots</url>
+     <url>http://54.172.244.241:8081/nexus-latest/content/repositories/releases/snapshots</url>
   </snapshotRepository>
 </distributionManagement>
 </project>

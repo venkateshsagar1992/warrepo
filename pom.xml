@@ -22,7 +22,7 @@
   <repository>
      <id>cjp</id>
      
-     <url>http://54.193.21.255:8080/nexus-latest/content/repositories/releases/</url>
+     <url>http://54.193.21.255:8080/nexus-latest/content/repositories/Releases/</url>
   </repository>
   <snapshotRepository>
      <id>cjp</id>

@@ -6,5 +6,5 @@
    - name: create folder
      file:
        path: /home/ubuntu/hello3
-       state: directory
+       state: absent
        mode: 0777

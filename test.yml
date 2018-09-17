@@ -1,9 +1,10 @@
 ---
 - hosts: localhost
+  #sudo: yes
  # remote_user: root
   tasks:
    - name: create folder
      file:
-       path: /opt/hello3
+       path: /home/ubuntu/hello3
        state: directory
        mode: 0777

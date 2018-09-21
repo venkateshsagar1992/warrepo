@@ -6,5 +6,5 @@
    - name: create file
      file:
        path: /home/ubuntu/hello3
-       state: present
+       state: directory
        mode: 0777

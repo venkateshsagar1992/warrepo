@@ -7,4 +7,4 @@
      file:
        path: /home/ubuntu/hello3.txt
        state: touch
-       mode: 0777
+       mode: "u=rw,g=r,o=r"

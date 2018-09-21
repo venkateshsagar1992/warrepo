@@ -5,6 +5,6 @@
   tasks:
    - name: create file
      file:
-       path: /home/ubuntu/hello
-       state: touch
-       mode: "u=rw,g=r,o=r"
+       path: /home/ubuntu/hello3
+       state: present
+       mode: 0777

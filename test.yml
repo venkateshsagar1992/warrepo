@@ -6,5 +6,5 @@
    - name: create file
      file:
        path: /home/ubuntu/hello3.txt
-       state: touch
+       state: present
        mode: "u=rw,g=r,o=r"

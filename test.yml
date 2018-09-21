@@ -3,8 +3,8 @@
 #  sudo: yes
  # remote_user: root
   tasks:
-   - name: create folder
+   - name: create file
      file:
-       path: /home/ubuntu/hello3
-       state: present
+       path: /home/ubuntu/hello3.txt
+       state: touch
        mode: 0777

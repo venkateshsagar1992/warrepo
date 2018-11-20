@@ -21,13 +21,13 @@
   <distributionManagement>
     <repository>
       <id>releases</id>
-      <name></name>
-      <url>http://localhost:8081/nexus/content/repositories/thirdparty/</url>
+      <name>hari</name>
+      <url>http://18.221.14.184:8080/nexus-latest/content/shadows/hari/</url>
     </repository>
     <snapshotRepository>
       <id>snapshots</id>
-      <name></name>
-      <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+      <name>hari</name>
+      <url>http://18.221.14.184:8080/nexus-latest/content/repositories/nexus/</url>
     </snapshotRepository>
   </distributionManagement>
 

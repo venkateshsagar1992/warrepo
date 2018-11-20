@@ -20,14 +20,14 @@
   </build>
   <distributionManagement>
     <repository>
-      <id>releases</id>
-      <name>hari</name>
-      <url>http://18.221.14.184:8080/nexus-latest/content/shadows/hari/</url>
+      <id>test</id>
+      <name>releases</name>
+      <url>http://18.221.14.184:8080/nexus-latest/content/repositories/releases/</url>
     </repository>
     <snapshotRepository>
-      <id>snapshots</id>
-      <name>hari</name>
-      <url>http://18.221.14.184:8080/nexus-latest/content/repositories/nexus/</url>
+      <id>test</id>
+      <name>snapshots</name>
+      <url>http://18.221.14.184:8080/nexus-latest/content/repositories/snapshots/</url>
     </snapshotRepository>
   </distributionManagement> 
 </project>

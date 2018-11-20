@@ -29,8 +29,5 @@
       <name>hari</name>
       <url>http://18.221.14.184:8080/nexus-latest/content/repositories/nexus/</url>
     </snapshotRepository>
-  </distributionManagement>
-
-  
-  
+  </distributionManagement> 
 </project>

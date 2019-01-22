@@ -1,2 +1,2 @@
-FROM tomcat:8.0
+FROM tomcat:latest
 ADD /target/CounterWebApp /usr/local/tomcat/webapps/
